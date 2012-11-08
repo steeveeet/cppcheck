@@ -77,8 +77,8 @@ void ShowUsage()
         "Options:\n"
         "    -h, --help    Print this help\n"
         "    -p <file>      Open given project file and start checking it\n"
-        "    -l <file>      Open given results file\n"
-        "    -d <directory> Specify the directory that was checked to generate the results specified with -x\n";
+        "    -l <file>      Open given results xml file\n"
+        "    -d <directory> Specify the directory that was checked to generate the results xml specified with -l\n";
 #if defined(_WIN32)
     QMessageBox msgBox(QMessageBox::Information,
                        "Cppcheck GUI",
